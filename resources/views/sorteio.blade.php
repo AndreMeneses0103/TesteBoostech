@@ -35,7 +35,7 @@
                 <a href="/home" class="btn btn-primary" id="btn_voltar">Voltar</a>
             </div>
             <div class="d-inline">
-                <button class="btn btn-success" onclick="novoSorteio()">Novo Sorteio</button>
+                <button class="btn btn-success" id="btn_sorteio" onclick="novoSorteio()">Novo Sorteio</button>
             </div>
         </div>
     </div>
@@ -56,6 +56,7 @@
                 window.location.href = '/';
             } else {
                 if (user.cargo !== "admin") {
+                    document.getElementById('btn_sorteio').remove();
                     document.getElementById('btn_voltar').href = "/";
                     fetchOneSorteioResults(user.id);
                 } else {
