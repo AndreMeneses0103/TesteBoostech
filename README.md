@@ -1,6 +1,6 @@
 # TesteBoostech
 
-Este é o projeto desenvolvido para o teste técnico da empresa Boostech. O desafio consiste na criação de um sistema completo para o sorteio de amigo secreto.
+Este é o projeto desenvolvido para o teste técnico da empresa Boostech. O desafio consiste na criação de um sistema completo para o sorteio de amigo secreto. O sistema foi desenvolvido usando PHP, Laravel com blade, Mysql e Bootstrap.
 
 ## Desenvolvido por:
 
@@ -41,7 +41,7 @@ Para recriar este projeto em seu ambiente local, siga as instruções abaixo:
 2. **Acesse o Diretório do Projeto:**
 
 ```bash
-  cd amigo_secreto
+  cd TesteBoostech
 ```
 
 3. **Instale as Dependências com Composer**
