@@ -41,7 +41,7 @@ Para recriar este projeto em seu ambiente local, siga as instruções abaixo:
 2. **Acesse o Diretório do Projeto:**
 
 ```bash
-  cd amigo_secreto
+  cd TesteBoostech
 ```
 
 3. **Instale as Dependências com Composer**
