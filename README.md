@@ -15,9 +15,9 @@ Este é o projeto desenvolvido para o teste técnico da empresa Boostech. O desa
   
 ## Requisitos
 
-- PHP
+- PHP 8
 - Composer
-- Laravel
+- Laravel 11
 - MySql
 
 
@@ -73,6 +73,32 @@ Para recriar este projeto em seu ambiente local, siga as instruções abaixo:
  ```bash
      http://localhost:8000/
 ```
+
+## Funcionalidades extras
+- **Sistema de Login**: Desenvolvi um sistema de login com usuários e administradores. Somente o administrador tem acesso ao gerenciamento de usuários e pode realizar o sorteio. Os usuários comuns podem fazer login e ver somente quem sortearam.
+
+
+## Funcionamento do Sistema
+### Pagina de Login
+Nesta página, os usuários podem inserir suas credenciais para acessar o sistema, separando administrador dos usuários.
+![image](https://github.com/user-attachments/assets/7d1eea10-e833-47ec-9141-0e538b822109)
+
+
+### Página Home
+A página inicial exibe os usuários cadastrados no sistema, com opções de cadastro, edição, remoção ou busca.
+![image](https://github.com/user-attachments/assets/16edef56-34f3-4e78-b26b-885173efc0fd)
+
+
+### Página Cadastro/Edição
+A pagina de cadastro/edição permite o administrador cadastrar ou editar usuarios, dependendo da opção selecionada na página home.
+![image](https://github.com/user-attachments/assets/112135be-2c3f-438e-bfa4-3aa2ae816ec5)
+
+
+
+### Página do Sorteio
+A página de sorteio é onde o administrador pode realizar o sorteio dos amigos secretos, e os usuários podem visualizar quem foi sorteado.
+![image](https://github.com/user-attachments/assets/8d30a7cb-2875-485e-96a8-7618bd66b652)
+
 
 ## Considerações Finais
 
